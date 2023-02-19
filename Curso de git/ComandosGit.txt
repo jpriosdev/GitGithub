@@ -1,0 +1,37 @@
+HEAD donde estamos parados trabajando
+Main ( Se puede cambiar en el archivo de configuración
+Git config --global user.name "nombre usuario"  crea en la carpeta de usuario el archivo gitcongif caon las personalizaciones
+Git config --global user.email "nombre@usuario.com"
+Git config  branch -m "nombre de la rama Master qeu quiero" ---cambia el nombre de la rama master a la que yo quiera
+Git init para inicializar el control de versionamiento
+Git Status para ver el estado del versionamiento
+git alias para resumir instrucciones con muchos parametros en uno corto
+
+git add para adicionar nuevos objetos al control de comprmomiso
+git log para mirar la historia de las versiones
+git log --grahph para ver las versiones en esquema de arbol
+git shorttree personalizado para ver sel resumen de los cambios
+git touch para crear objetos desde la linea de comandos de git
+git commit -m "" Para crear una nueva version con los cambios 
+git diff para mirar antes de crear versiones que se ha cambiado en el código
+git checkout <<nombre del archivo>> para desaser los ultimos cambios antes de crear version
+git checkout <<hash>> volver a la versión de la foto que quiero
+git checkout HEAD defino desde donde indico que es la nueva cabeza(main) del proyecto
+git reset descartar todos los cambios hasta una versión específica
+git reset --hard <<hash>>  borra todo lo que se tiene en la historia de las versiones
+git reflog me muestra toda la historia profunda del log incluyendo el hard
+--- git reset <<versión original >> me lleva a la versión donde originalmente estaba 
+git tag para personalizar el nombre del commit y dar mas claridad
+git checkout tags/<<nombre del tag>> 
+git branch <nombre de la rama >me crea ramas
+git switch <nombre de la rama> melleva el head a la rama
+git merge <nombre de la raiz> con la que quiero 
+git stash para guardar temporalmente mientras em muevo de rama porque git no permite cambiar de rama con cambios pendientes no crea versión nueva
+git stash list -- me lista todos los cambios temporales que tengpo por aplicar y donde tengo trabajos pendientes
+git stash pop - me recupera el estado donde estaba cuando hice stash
+git stash drop -- para descartar los cambios que temporales que tengo por el stash.
+
+
+
+
+
