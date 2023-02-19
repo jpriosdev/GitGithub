@@ -36,8 +36,6 @@ git stash pop - me recupera el estado donde estaba cuando hice stash
 git stash drop -- para descartar los cambios que temporales que tengo por el stash.
 <<<<<<< HEAD
 .
-=======
->>>>>>> login
 
 
 
