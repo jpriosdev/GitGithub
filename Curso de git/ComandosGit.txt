@@ -33,6 +33,8 @@ git stash drop -- para descartar los cambios que temporales que tengo por el sta
 git branch -d login   --permite eliminar ramas que ya dejaron de cumpplir su función
 git remote add origin git@github.com:jpriosdev/GitGithub.git  -- conectar con mi repositorio github
 git push origin main --- carga todo lo del main al remoto en github.
+git fetch -- trae todo el arbol desde github hacia el local pero sin descargar todos el contenido de los acrvhivos solo el listado de versiones
+git pull -- trae todo los archivos y el arbol con toda la info
 
 
 
