@@ -25,17 +25,14 @@ git tag para personalizar el nombre del commit y dar mas claridad
 git checkout tags/<<nombre del tag>> 
 git branch <nombre de la rama >me crea ramas
 git switch <nombre de la rama> melleva el head a la rama
-<<<<<<< HEAD
 git merge <nombre de la raiz> con la que quiero fusionarme
-=======
-git merge <nombre de la raiz> con la que quiero 
->>>>>>> login
 git stash para guardar temporalmente mientras em muevo de rama porque git no permite cambiar de rama con cambios pendientes no crea versión nueva
 git stash list -- me lista todos los cambios temporales que tengpo por aplicar y donde tengo trabajos pendientes
 git stash pop - me recupera el estado donde estaba cuando hice stash
 git stash drop -- para descartar los cambios que temporales que tengo por el stash.
-<<<<<<< HEAD
-.
+git branch -d login   --permite eliminar ramas que ya dejaron de cumpplir su función
+git remote add origin git@github.com:jpriosdev/GitGithub.git  -- conectar con mi repositorio github
+git push origin main --- carga todo lo del main al remoto en github.
 
 
 
