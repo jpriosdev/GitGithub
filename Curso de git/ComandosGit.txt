@@ -1,11 +1,12 @@
 HEAD donde estamos parados trabajando
 Main ( Se puede cambiar en el archivo de configuración
-Git config --global user.name "nombre usuario"  crea en la carpeta de usuario el archivo gitcongif caon las personalizaciones
-Git config --global user.email "nombre@usuario.com"
-Git config  branch -m "nombre de la rama Master qeu quiero" ---cambia el nombre de la rama master a la que yo quiera
-Git init para inicializar el control de versionamiento
-Git Status para ver el estado del versionamiento
+git config --global user.name "Juan P Linux"  crea en la carpeta de usuario el archivo gitcongif caon las personalizaciones
+git config --global user.email "jurios.ps@gmail.com"
+git config  branch -m "nombre de la rama Master qeu quiero" ---cambia el nombre de la rama master a la que yo quiera
+git init para inicializar el control de versionamiento
+git Status para ver el estado del versionamiento
 git alias para resumir instrucciones con muchos parametros en uno corto
+rm -rf "nombre del init"
 
 git add para adicionar nuevos objetos al control de comprmomiso
 git log para mirar la historia de las versiones
